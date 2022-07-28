@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(#68eacc 0%, #497be8 100%);
+  height: 100vh;
+}
+/* .App {
+  width: 350px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.container {
+  width: 350px;
+  height: 520px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container h1 {
+  text-align: center;
+}
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+  /* width: 450px; */
+}
+.todoForm input {
+  margin: 10px;
+  outline: none;
+}
+.todoForm svg {
+ 
+  color: #20b2aa;
+  border: none;
+  outline: none;
+  font-size: 45px;
+}
+.todoForm svg:hover {
+  color: green;
+}
+.edit {
+  background-color: #5dadf8;
+  color: rgb(178, 134, 85);
+  font-size: 20px;
+}
+.delete {
+  background-color: #5dadf8;
+  color: salmon;
+  font-size: 20px;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+.allTodos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: #5dadf8;
+  padding: 10px 20px;
+  display: flex;
+
+  align-items: center;
+}
+.todoText {
+  flex: 1;
+}
+.todoStyle {
+  display: flex;
+
+  align-items: center;
+}
+.todoStyle svg {
+  color: #9477af;
+  font-size: 25px;
+}
+.todoStyle svg:hover {
+  color: salmon;
+  cursor: pointer;
+}
+.editBtn svg{
+  color: #ffa500;
+}
+.editBtn svg:hover{
+  color: #7d93e0;
+}

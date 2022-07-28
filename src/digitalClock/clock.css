@@ -1,0 +1,12 @@
+.clock {
+    display: "grid";
+  
+    justify-content: "center";
+    margin: "10%";
+    border: "2px solid #ff5912";
+    background-color: "#200506";
+  
+    padding: "5%";
+    color: "white";
+  }
+  
